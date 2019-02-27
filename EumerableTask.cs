@@ -51,8 +51,8 @@ namespace PadawansTask15
         public IEnumerable<long> GetSquareSequence(IEnumerable<int> data)
         {
             // TODO : Implement GetSquareSequence
-            throw new NotImplementedException();
-            //return data.Select(i => (long)i * (long)i);
+            //throw new NotImplementedException();
+            return data.Select(i => (long)i * (long)i);
         }
 
         /// <summary> Filters a string sequence by a prefix value (case insensitive).</summary>
